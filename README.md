@@ -73,4 +73,8 @@ An AI-powered **Retrieval-Augmented Generation (RAG)** chatbot that enables user
 8. Generate an accurate and context-aware response.
 
 ---
+## 📝 Note
 
+- This project uses **Docker** to run the **Qdrant Vector Database**.
+- Ensure the **Docker container is running in the background** before launching the Streamlit application.
+- The application connects to the Qdrant instance hosted inside Docker for storing and retrieving vector embeddings.
